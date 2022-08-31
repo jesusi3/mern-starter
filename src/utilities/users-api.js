@@ -12,7 +12,3 @@ export function login(credentials) {
     return sendResquest(`${BASE_URL}/login`, 'POST', credentials)
 }
 
-export function checkToken() {
-    return sendResquest(`${BASE_URL}/check-token`)
-
-}
